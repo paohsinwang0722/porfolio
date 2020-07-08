@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pao Hsin Wang</title>
+    <!-- 字型 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500&display=swap"
+        rel="stylesheet">
+    <!-- 連結Bootstrap.min.css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <!-- 使用font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <!-- main.js -->
+    <link rel="stylesheet" href="./js/main.js">
+    <!-- connect to style.css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- 客製化Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav id="navbar" class="navbar fixed-top navbar-expand-sm navbar-dark bg-primary">
+        <!-- logo -->
+        <a class="navbar-brand" href="#">Pao</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutSection">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#workSection">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactSection">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- header -->
+    <header id="header" class="jumbotron text-center text-white bg-dark">
+        <div class="container">
+            <div class="wow bounceInUp animate__animated animate__bounce">
+                <h1>Building something remarkable</h1>
+                <p>We focus on providing the project management &amp; data storage
+                    solutions.</p>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- aboutSection -->
+    <!-- carousel -->
+    <section id="aboutSection" class="py-5  ">
+        <div class="container">
+            <h4 class="text-center">About Me</h4>
+            <div class="row justify-content-center py-5">
+                <div class="pic col-2">
+                    <img class="authorpic w-100 rounded-circle" src="./img/頭貼.jpg" alt="作者照片">
+                </div>
+                <div id="aboutme" class="carousel slide col-6 " data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#aboutme" data-slide-to="0" class="active"></li>
+                        <li data-target="#aboutme" data-slide-to="1"></li>
+                        <li data-target="#aboutme" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="aboutme justify-content-center carousel-item active">
+                            <h4 class="title">學歷</h4>
+                            <ul class="py-3">
+                                <li>臺南市私立南臺科技大學創新產品設計系大三就學中</li>
+                                <li>臺南市私立港明高級中學</li>
+                            </ul>
+                        </div>
+
+                        <div class="aboutme justify-content-center carousel-item">
+                            <h4 class="title">經歷</h4>
+
+                            <ul class="py-3">
+                                <li>2020.3~2020.7 班級幹部 衛生股長</li>
+                                <li>2019.7~2019.8 DISL暑期實習</li>
+                                <li>2018.9~2019.8 自造教育社團 文書兼總務</li>
+                                <li>2018.1~2019.1 班級代表</li>
+                            </ul>
+                        </div>
+                        <div class="aboutme justify-content-center carousel-item">
+                            <h3 class="title">自我介紹</h3>
+                            <p class="py-3">
+                                你好，我叫王寶妡，目前就讀於南臺科技大學創新產品設計系三年級的學生，產品與文創設計及互動與介面設計兩種學程都有修讀，經過三年的課程，未來發展方向會以介面為主</p>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#aboutme" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#aboutme" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- aboutSection end -->
+    <section id="workSection" class="py-5 bg-secondary">
+        <div class="container justify-content-center">
+            <h4 class="text-center text-info">Work</h4>
+            <div class="row justify-content-center py-3">
+                <div class="col-sm-10 col-md-8 ">
+                    <!-- 導覽按鈕 -->
+                    <nav class="nav nav-pills justify-content-center">
+                        <a class="nav-link active " data-toggle="pill" role="tab" href="#article3"
+                            aria-controls="article3" aria-selected="true">Graphic</a>
+                        <a class="nav-link" data-toggle="pill" role="tab" href="#article4" aria-controls="article4"
+                            aria-selected="false">Product</a>
+                    </nav>
+                    <!-- 為article3 article4 設置tab互動方式 -->
+                    <!-- .tab-content>.tab-pane(每一個內分頁) -->
+                    <div class="tab-content" id="pills-tabContent">
+                        <article id="article3" class="my-3 tab-pane fade show active" role="tabpanel"
+                            aria-labelledby="article3-tab">
+                            <h3 class="text-info">Graphic</h3>
+                            <div class="row graphic justify-content-center py-3">
+                                <div class="graphic graphic1 col-6">
+                                </div>
+                                <div class="graphic graphic2 col-6">
+                                </div>
+                                <div class="graphic graphic3 col-6">
+                                </div>
+                                <div class="graphic graphic4 col-6">
+                                </div>
+                            </div>
+                        </article>
+                        <!-- product -->
+                        <article id="article4" class="my-3 tab-pane fade  " role="tabpanel"
+                            aria-labelledby="article4-tab">
+                            <h3 class="text-info">Product</h3>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="card plantET col-3 ">
+                                        <img src="./img/8560888.jpg" class="card-img" alt="植物外星人" width="300">
+                                        <div class="card-body">
+                                            <h5>植物外星人</h5>
+                                            <p class="card-text">透過聲音、觸覺開啟與植物的連結，感受他的每一種情緒和呼吸。
+                                                生活亦是如此，細細品嚐在平凡的每一瞬間發現美好。</p>
+                                            <p>Team 王寶妡 簡聖霏 陳昀鞠 謝雯麗 謝欣蓉</p>
+                                        </div>
+                                    </div>
+                                    <div class="card foodcontain col-3 ">
+                                        <img src="./img/34411.jpg" alt="通用設計食物盒" class="card-img" width="300">
+                                        <div class="card-body">
+                                            <h5>袋你七逃</h5>
+                                            <p class="card-text">一起野餐去吧!有特殊的卡扣設計讓食物開關更快速開關減少蚊蟲飛入，大容量飲料袋暢飲更歡樂!</p>
+                                        </div>
+                                    </div>
+                                    <div class="card table col-3 ">
+                                        <img src="./img/瓶中瓶邊桌.jpg" class="card-img" alt="瓶中瓶邊桌" width="300">
+                                        <div class="card-body">
+                                            <h5>瓶中瓶邊桌</h5>
+                                            <p class="card-text">使用透明、環繞守護的元素概念所設計的邊桌</p>
+
+                                        </div>
+                                    </div>
+                                    <div class="card fruit col-3 ">
+                                        <img src="./img/火龍果處理器.jpg" class="card-img" alt="火龍果處理器" width="300">
+                                        <div class="card-body">
+                                            <h5>火龍果處理器</h5>
+                                            <p class="card-text">優雅又流暢的處理火龍果</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- workSection end -->
+    <!-- contactSection -->
+    <section id="contactSection" class=" py-5">
+        <div class="container">
+            <div class="row justify-content-center my-5">
+                <div class="col-md-3">
+                    <!--設定點擊按鈕後顯示彈出式視窗 -->
+                    <button class="btn btn-lg btn-block btn-primary" data-toggle="modal"
+                        data-target="#emailModel">Contact Me!</button>
+                </div>
+            </div>
+            <!--  加入彈出式視窗 Modal -->
+            <div class="modal fade" id="emailModel" tabindex="-1" role="dialog" aria-labelledby="modaltitleId"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modaltitleId">Please Input Your Email</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <!-- .form-group>input.form-control -->
+                            <div class="form-group">
+                                <label for="">Nickname</label>
+                                <input placeholder="Your nickname..." type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Email</label>
+                                <input placeholder="Email..." type="email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="">You want to say</label>
+                                <textarea class="form-control" rows="3"></textarea>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Sent</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- contactSection end -->
+    <!-- footer -->
+    <footer class="bg-secondary">
+        <div>
+            <div class="row text-info ">
+                <!-- col-6 直接dash 是最小尺寸 -->
+                <div class="footer-list col-6 col-md-3 py-3">
+                    <h4>Contact Me</h4>
+                    <a href="mailto:service@brand.com">4A61C003@STUST.EDU.TW</a>
+                </div>
+                <div class="footer-list col-6 col-md-3 py-3">
+                    <h5 class="text-uppercase">Company</h5>
+                    <ul>
+                        <li>
+                            <a href="#">Careers</a>
+                        </li>
+                        <li>
+                            <a href="#">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#">Press</a>
+                        </li>
+                        <li>
+                            <a href="#">Bonus</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class=" footer-list col-6 col-md-3 py-3">
+                    <h5 class="text-uppercase">Product</h5>
+                    <ul>
+                        <li>
+                            <a href="#">Enterprice</a>
+                        </li>
+                        <li>
+                            <a href="#">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#">Security</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-list col-6 col-md-3 py-3">
+                    <h5 class="text-uppercase">Resource</h5>
+                    <ul>
+                        <li>
+                            <a href="#">Guilde</a>
+                        </li>
+                        <li>
+                            <a href="#">Help Center</a>
+                        </li>
+                        <li>
+                            <a href="#">API</a>
+                        </li>
+                        <li>
+                            <a href="#">Events</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-end bg-dark text-white py-1">
+            <p class="text-center ">&copy; Copy right 2020</p>
+        </div>
+    </footer>
+    <!-- footer end -->
+</body>
+
+</html>
