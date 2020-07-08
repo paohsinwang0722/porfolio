@@ -36,7 +36,7 @@
 
 <body>
     <!-- navbar -->
-    <nav id="navbar" class="navbar fixed-top navbar-expand-sm navbar-dark bg-primary">
+    <nav id="navbar" class="navbar fixed-top navbar-expand-sm navbar-dark bg-info">
         <!-- logo -->
         <a class="navbar-brand" href="#">Pao</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
@@ -62,31 +62,30 @@
     <header id="header" class="jumbotron text-center text-white bg-dark">
         <div class="container">
             <div class="wow bounceInUp animate__animated animate__bounce">
-                <h1>Building something remarkable</h1>
-                <p>We focus on providing the project management &amp; data storage
-                    solutions.</p>
+                <h1>Welcome to Pao's Porfolio</h1>
+                <p>Here is most complicated projects published by my team or me within three years </p>
             </div>
         </div>
     </header>
     <!-- header end -->
     <!-- aboutSection -->
     <!-- carousel -->
-    <section id="aboutSection" class="py-5  ">
+    <section id="aboutSection" class="py-5 ">
         <div class="container">
             <h4 class="text-center">About Me</h4>
             <div class="row justify-content-center py-5">
-                <div class="pic col-2">
+                <div class="pic col-3">
                     <img class="authorpic w-100 rounded-circle" src="./img/頭貼.jpg" alt="作者照片">
                 </div>
-                <div id="aboutme" class="carousel slide col-6 " data-ride="carousel">
+                <div id="aboutme" class="carousel slide col-6  " data-ride="carousel">
                     <ol class="carousel-indicators">
-                        <li data-target="#aboutme" data-slide-to="0" class="active"></li>
-                        <li data-target="#aboutme" data-slide-to="1"></li>
-                        <li data-target="#aboutme" data-slide-to="2"></li>
+                        <li data-target="#aboutme" data-slide-to="0" class="active bg-info "></li>
+                        <li data-target="#aboutme" data-slide-to="1" class=" bg-info"></li>
+                        <li data-target="#aboutme" data-slide-to="2" class=" bg-info"></li>
                     </ol>
-                    <div class="carousel-inner">
-                        <div class="aboutme justify-content-center carousel-item active">
-                            <h4 class="title">學歷</h4>
+                    <div class="carousel-inner ">
+                        <div class="aboutme justify-content-center carousel-item active ">
+                            <h5 class="title">學歷</h5>
                             <ul class="py-3">
                                 <li>臺南市私立南臺科技大學創新產品設計系大三就學中</li>
                                 <li>臺南市私立港明高級中學</li>
@@ -94,7 +93,7 @@
                         </div>
 
                         <div class="aboutme justify-content-center carousel-item">
-                            <h4 class="title">經歷</h4>
+                            <h5 class="title">經歷</h5>
 
                             <ul class="py-3">
                                 <li>2020.3~2020.7 班級幹部 衛生股長</li>
@@ -104,17 +103,17 @@
                             </ul>
                         </div>
                         <div class="aboutme justify-content-center carousel-item">
-                            <h3 class="title">自我介紹</h3>
+                            <h5 class="title">自我介紹</h5>
                             <p class="py-3">
                                 你好，我叫王寶妡，目前就讀於南臺科技大學創新產品設計系三年級的學生，產品與文創設計及互動與介面設計兩種學程都有修讀，經過三年的課程，未來發展方向會以介面為主</p>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#aboutme" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
+                    <a class="carousel-control-prev " href="#aboutme" role="button " data-slide="prev">
+                        <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                        <span class="sr-only bg-info">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#aboutme" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <a class="carousel-control-next " href="#aboutme" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon " aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
@@ -122,86 +121,47 @@
         </div>
     </section>
     <!-- aboutSection end -->
-    <section id="workSection" class="py-5 bg-secondary">
-        <div class="container justify-content-center">
-            <h4 class="text-center text-info">Work</h4>
-            <div class="row justify-content-center py-3">
-                <div class="col-sm-10 col-md-8 ">
-                    <!-- 導覽按鈕 -->
-                    <nav class="nav nav-pills justify-content-center">
-                        <a class="nav-link active " data-toggle="pill" role="tab" href="#article3"
-                            aria-controls="article3" aria-selected="true">Graphic</a>
-                        <a class="nav-link" data-toggle="pill" role="tab" href="#article4" aria-controls="article4"
-                            aria-selected="false">Product</a>
-                    </nav>
-                    <!-- 為article3 article4 設置tab互動方式 -->
-                    <!-- .tab-content>.tab-pane(每一個內分頁) -->
-                    <div class="tab-content" id="pills-tabContent">
-                        <article id="article3" class="my-3 tab-pane fade show active" role="tabpanel"
-                            aria-labelledby="article3-tab">
-                            <h3 class="text-info">Graphic</h3>
-                            <div class="row graphic justify-content-center py-3">
-                                <div class="graphic graphic1 col-6">
-                                </div>
-                                <div class="graphic graphic2 col-6">
-                                </div>
-                                <div class="graphic graphic3 col-6">
-                                </div>
-                                <div class="graphic graphic4 col-6">
-                                </div>
-                            </div>
-                        </article>
-                        <!-- product -->
-                        <article id="article4" class="my-3 tab-pane fade  " role="tabpanel"
-                            aria-labelledby="article4-tab">
-                            <h3 class="text-info">Product</h3>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="card plantET col-3 ">
-                                        <img src="./img/8560888.jpg" class="card-img" alt="植物外星人" width="300">
-                                        <div class="card-body">
-                                            <h5>植物外星人</h5>
-                                            <p class="card-text">透過聲音、觸覺開啟與植物的連結，感受他的每一種情緒和呼吸。
-                                                生活亦是如此，細細品嚐在平凡的每一瞬間發現美好。</p>
-                                            <p>Team 王寶妡 簡聖霏 陳昀鞠 謝雯麗 謝欣蓉</p>
-                                        </div>
-                                    </div>
-                                    <div class="card foodcontain col-3 ">
-                                        <img src="./img/34411.jpg" alt="通用設計食物盒" class="card-img" width="300">
-                                        <div class="card-body">
-                                            <h5>袋你七逃</h5>
-                                            <p class="card-text">一起野餐去吧!有特殊的卡扣設計讓食物開關更快速開關減少蚊蟲飛入，大容量飲料袋暢飲更歡樂!</p>
-                                        </div>
-                                    </div>
-                                    <div class="card table col-3 ">
-                                        <img src="./img/瓶中瓶邊桌.jpg" class="card-img" alt="瓶中瓶邊桌" width="300">
-                                        <div class="card-body">
-                                            <h5>瓶中瓶邊桌</h5>
-                                            <p class="card-text">使用透明、環繞守護的元素概念所設計的邊桌</p>
-
-                                        </div>
-                                    </div>
-                                    <div class="card fruit col-3 ">
-                                        <img src="./img/火龍果處理器.jpg" class="card-img" alt="火龍果處理器" width="300">
-                                        <div class="card-body">
-                                            <h5>火龍果處理器</h5>
-                                            <p class="card-text">優雅又流暢的處理火龍果</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </article>
+    <!-- workSection -->
+    <section id="workSection" class="bg-secondary">
+        <div class="container py-5">
+            <h4 class="text-center">Work</h4>
+            <div class="row py-3">
+                <div class="card plantET col-3 px-0 mx-0.5">
+                    <img src="./img/8560888.jpg" class="card-img" alt="植物外星人" width="300">
+                    <div class="card-body">
+                        <h5>植物外星人</h5>
+                        <p class="card-text">透過聲音、觸覺開啟與植物的連結，感受他的每一種情緒和呼吸。
+                            生活亦是如此，細細品嚐在平凡的每一瞬間發現美好。</p>
+                        <p>Team 王寶妡 簡聖霏 陳昀鞠 謝雯麗 謝欣蓉</p>
+                    </div>
+                </div>
+                <div class="card foodcontain col-3 px-0 mx-0.5">
+                    <img src="./img/untitled.34.jpg" alt="通用設計食物盒" class="card-img" width="300">
+                    <div class="card-body">
+                        <h5>袋你七逃</h5>
+                        <p class="card-text">一起野餐去吧!有特殊的卡扣設計讓食物開關更快速開關減少蚊蟲飛入，大容量飲料袋暢飲更歡樂!</p>
+                    </div>
+                </div>
+                <div class="card foodcontain col-3  px-0 mx-0.5">
+                    <img src="./img/瓶中瓶邊桌.jpg" alt="通用設計食物盒" class="card-img" width="300">
+                    <div class="card-body">
+                        <h5>瓶中瓶邊桌</h5>
+                        <p class="card-text">使用透明、環繞守護的元素概念所設計的邊桌</p>
+                    </div>
+                </div>
+                <div class="card foodcontain col-3 px-0 mx-0.5">
+                    <img src="./img/作品的部分_200429_0097.png" alt="葡萄柚榨汁器" class="card-img" width="300">
+                    <div class="card-body">
+                        <h5>葡萄柚榨汁器</h5>
+                        <p class="card-text">榨汁時如同打開水龍頭一樣，汁水流暢的流進杯子裡</p>
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
     </section>
+
     <!-- workSection end -->
     <!-- contactSection -->
-    <section id="contactSection" class=" py-5">
+    <section id="contactSection">
         <div class="container">
             <div class="row justify-content-center my-5">
                 <div class="col-md-3">
@@ -248,66 +208,13 @@
     </section>
     <!-- contactSection end -->
     <!-- footer -->
-    <footer class="bg-secondary">
-        <div>
-            <div class="row text-info ">
-                <!-- col-6 直接dash 是最小尺寸 -->
-                <div class="footer-list col-6 col-md-3 py-3">
-                    <h4>Contact Me</h4>
-                    <a href="mailto:service@brand.com">4A61C003@STUST.EDU.TW</a>
-                </div>
-                <div class="footer-list col-6 col-md-3 py-3">
-                    <h5 class="text-uppercase">Company</h5>
-                    <ul>
-                        <li>
-                            <a href="#">Careers</a>
-                        </li>
-                        <li>
-                            <a href="#">About Us</a>
-                        </li>
-                        <li>
-                            <a href="#">Blog</a>
-                        </li>
-                        <li>
-                            <a href="#">Press</a>
-                        </li>
-                        <li>
-                            <a href="#">Bonus</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class=" footer-list col-6 col-md-3 py-3">
-                    <h5 class="text-uppercase">Product</h5>
-                    <ul>
-                        <li>
-                            <a href="#">Enterprice</a>
-                        </li>
-                        <li>
-                            <a href="#">Pricing</a>
-                        </li>
-                        <li>
-                            <a href="#">Security</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-list col-6 col-md-3 py-3">
-                    <h5 class="text-uppercase">Resource</h5>
-                    <ul>
-                        <li>
-                            <a href="#">Guilde</a>
-                        </li>
-                        <li>
-                            <a href="#">Help Center</a>
-                        </li>
-                        <li>
-                            <a href="#">API</a>
-                        </li>
-                        <li>
-                            <a href="#">Events</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+    <footer class="bg-info">
+        <div class="footer-list  text-info">
+            <ul class="row footer-info">
+                <li class="col-2"><a href="#">PaoHsin</a></li>
+                <li class="col-2 name"><a href="4A61C003@STUST.EDU.TW">4A61C003@STUST.EDU.TW</a></li>
+
+            </ul>
         </div>
 
         <div class="footer-end bg-dark text-white py-1">
