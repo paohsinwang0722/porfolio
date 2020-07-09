@@ -74,10 +74,10 @@
         <div class="container">
             <h4 class="text-center">About Me</h4>
             <div class="row justify-content-center py-5">
-                <div class="pic col-3">
+                <div class="pic col-md-3 col-sm-12">
                     <img class="authorpic w-100 rounded-circle" src="./img/頭貼.jpg" alt="作者照片">
                 </div>
-                <div id="aboutme" class="carousel slide col-6  " data-ride="carousel">
+                <div id="aboutme" class="carousel slide col-md-4 col-sm-12  " data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#aboutme" data-slide-to="0" class="active bg-info "></li>
                         <li data-target="#aboutme" data-slide-to="1" class=" bg-info"></li>
@@ -126,7 +126,7 @@
         <div class="container py-5">
             <h4 class="text-center">Work</h4>
             <div class="row py-3">
-                <div class="card plantET col-3 px-0 mx-0.5">
+                <div class="card plantET col-md-3 col-sm-12 px-0 mx-0.5">
                     <img src="./img/8560888.jpg" class="card-img" alt="植物外星人" width="300">
                     <div class="card-body">
                         <h5>植物外星人</h5>
@@ -135,21 +135,21 @@
                         <p>Team 王寶妡 簡聖霏 陳昀鞠 謝雯麗 謝欣蓉</p>
                     </div>
                 </div>
-                <div class="card foodcontain col-3 px-0 mx-0.5">
+                <div class="card foodcontain col-md-3 col-sm-12 px-0 mx-0.5">
                     <img src="./img/untitled.34.jpg" alt="通用設計食物盒" class="card-img" width="300">
                     <div class="card-body">
                         <h5>袋你七逃</h5>
                         <p class="card-text">一起野餐去吧!有特殊的卡扣設計讓食物開關更快速開關減少蚊蟲飛入，大容量飲料袋暢飲更歡樂!</p>
                     </div>
                 </div>
-                <div class="card foodcontain col-3  px-0 mx-0.5">
+                <div class="card foodcontain col-md-3 col-sm-12   px-0 mx-0.5">
                     <img src="./img/瓶中瓶邊桌.jpg" alt="通用設計食物盒" class="card-img" width="300">
                     <div class="card-body">
                         <h5>瓶中瓶邊桌</h5>
                         <p class="card-text">使用透明、環繞守護的元素概念所設計的邊桌</p>
                     </div>
                 </div>
-                <div class="card foodcontain col-3 px-0 mx-0.5">
+                <div class="card foodcontain col-md-3 col-sm-12 px-0 mx-0.5">
                     <img src="./img/作品的部分_200429_0097.png" alt="葡萄柚榨汁器" class="card-img" width="300">
                     <div class="card-body">
                         <h5>葡萄柚榨汁器</h5>
@@ -160,53 +160,7 @@
     </section>
 
     <!-- workSection end -->
-    <!-- contactSection -->
-    <section id="contactSection">
-        <div class="container">
-            <div class="row justify-content-center my-5">
-                <div class="col-md-3">
-                    <!--設定點擊按鈕後顯示彈出式視窗 -->
-                    <button class="btn btn-lg btn-block btn-primary" data-toggle="modal"
-                        data-target="#emailModel">Contact Me!</button>
-                </div>
-            </div>
-            <!--  加入彈出式視窗 Modal -->
-            <div class="modal fade" id="emailModel" tabindex="-1" role="dialog" aria-labelledby="modaltitleId"
-                aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="modaltitleId">Please Input Your Email</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <!-- .form-group>input.form-control -->
-                            <div class="form-group">
-                                <label for="">Nickname</label>
-                                <input placeholder="Your nickname..." type="text" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <label for="">Email</label>
-                                <input placeholder="Email..." type="email" class="form-control">
-                            </div>
-                            <div class="form-group">
-                                <label for="">You want to say</label>
-                                <textarea class="form-control" rows="3"></textarea>
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal">Sent</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-        </div>
-    </section>
-    <!-- contactSection end -->
     <!-- footer -->
     <footer class="bg-info">
         <div class="footer-list  text-info">
